@@ -26,7 +26,6 @@ namespace Deque
                 int lastItem = deque.Last.Value;
 
                 deque.RemoveFirst();
-                deque.RemoveLast();
 
                 Console.WriteLine($"First: {firstItem}, Last: {lastItem}");
             }
